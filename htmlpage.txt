@@ -1,0 +1,53 @@
+<a href="mercuryregister.php">REGISTER</a>
+
+//a[contains(text(),'REGIST')]
+
+<input maxlength="60" name="firstName" size="20">
+
+input[name='firstName']
+<input maxlength="60" name="lastName" size="20" class="">
+
+<input maxlength="20" name="phone" size="15">
+
+
+x-path
+
+//input[@name='phone']
+
+
+
+<input name="userName" id="userName" size="35" maxlength="64">
+<input name="userName" id="userName" size="35" maxlength="64" class="">
+
+xpath with maltipal attribute
+
+//input[@name'userName' and @id='userName'
+
+<input maxlength="60" name="address1" size="40" class="">
+
+<b>Address:</b>
+
+//b[text()='Address:']/following::input[1]
+
+<input maxlength="60" name="city" size="15" class="">
+
+
+<a href="https://www.monster.com/resumes/post-resume2/?intcid=skr_cards_www_amazingResume" class="btn-action">Upload Resume</a>
+
+<a href="https://www.monster.com/resumes/post-resume2/?intcid=skr_cards_www_amazingResume" class="btn-action">Upload Resume</a>
+
+
+<a href="https://www.monster.com/resumes/post-resume2/?intcid=skr_cards_www_amazingResume" class="btn-action">Upload Resume</a>
+
+//a[contains(@class,'Upload Resume')]
+//a[text()=
+
+//button[contains(@class,'Upload Resume')]
+
+//a[contains(text(),'Upload Resume')]
+
+
+<a href="#" role="button" id="btnUploadFromMyComputer" class="pill-btn pill-white btn" data-resume-type="COMPUTER">
+													<span class="hidden-xs">Upload From My Computer</span>
+													<span class="hidden-sm hidden-md hidden-lg">Upload your resume</span>
+												</a>
